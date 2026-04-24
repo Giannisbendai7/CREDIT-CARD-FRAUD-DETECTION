@@ -17,7 +17,9 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
+          pip install jupyter
 
-      - name: Run script
+      - name: Run notebook
         run: |
-          python main.py
+          jupyter nbconvert --to notebook --execute CREDIT-CARD-FRAUDLENT-FINTECHPROJECT.ipynb
+5. Πάτα κάτω:
