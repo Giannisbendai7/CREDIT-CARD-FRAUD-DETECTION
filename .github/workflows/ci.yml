@@ -22,4 +22,3 @@ jobs:
       - name: Run notebook
         run: |
           jupyter nbconvert --to notebook --execute CREDIT-CARD-FRAUDLENT-FINTECHPROJECT.ipynb
-5. Πάτα κάτω:
